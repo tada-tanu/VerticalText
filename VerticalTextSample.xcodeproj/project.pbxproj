@@ -76,14 +76,11 @@
 		4B06D0E82A80D3FA0054EFC6 /* VerticalTextSample */ = {
 			isa = PBXGroup;
 			children = (
-				4B06D1182A80E9C00054EFC6 /* Views */,
-				4B06D1152A80E29F0054EFC6 /* Fonts */,
 				4B06D0E92A80D3FA0054EFC6 /* AppDelegate.swift */,
-				4B06D0F22A80D3FB0054EFC6 /* Assets.xcassets */,
+				4B1A288F2A8499E000EBE310 /* Resources */,
 				4B06D1142A80D82C0054EFC6 /* Extensions */,
-				4B06D0F72A80D3FB0054EFC6 /* Info.plist */,
-				4B06D0F42A80D3FB0054EFC6 /* LaunchScreen.storyboard */,
 				4B06D1032A80D7D80054EFC6 /* ViewControllers */,
+				4B06D1182A80E9C00054EFC6 /* Views */,
 			);
 			path = VerticalTextSample;
 			sourceTree = "<group>";
@@ -159,6 +156,17 @@
 				4B06D1192A80E9D10054EFC6 /* VerticalStackLabelView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4B1A288F2A8499E000EBE310 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B06D0F22A80D3FB0054EFC6 /* Assets.xcassets */,
+				4B06D1152A80E29F0054EFC6 /* Fonts */,
+				4B06D0F72A80D3FB0054EFC6 /* Info.plist */,
+				4B06D0F42A80D3FB0054EFC6 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
