@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B06D0E62A80D3FA0054EFC6 /* VerticalText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerticalText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B06D0E62A80D3FA0054EFC6 /* VerticalTextSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerticalTextSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B06D0E92A80D3FA0054EFC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B06D0F22A80D3FB0054EFC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B06D0F52A80D3FB0054EFC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		4B06D0DD2A80D3FA0054EFC6 = {
 			isa = PBXGroup;
 			children = (
-				4B06D0E82A80D3FA0054EFC6 /* VerticalText */,
+				4B06D0E82A80D3FA0054EFC6 /* VerticalTextSample */,
 				4B06D0E72A80D3FA0054EFC6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,12 +68,12 @@
 		4B06D0E72A80D3FA0054EFC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B06D0E62A80D3FA0054EFC6 /* VerticalText.app */,
+				4B06D0E62A80D3FA0054EFC6 /* VerticalTextSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B06D0E82A80D3FA0054EFC6 /* VerticalText */ = {
+		4B06D0E82A80D3FA0054EFC6 /* VerticalTextSample */ = {
 			isa = PBXGroup;
 			children = (
 				4B06D1182A80E9C00054EFC6 /* Views */,
@@ -85,7 +85,7 @@
 				4B06D0F42A80D3FB0054EFC6 /* LaunchScreen.storyboard */,
 				4B06D1032A80D7D80054EFC6 /* ViewControllers */,
 			);
-			path = VerticalText;
+			path = VerticalTextSample;
 			sourceTree = "<group>";
 		};
 		4B06D1032A80D7D80054EFC6 /* ViewControllers */ = {
@@ -164,9 +164,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B06D0E52A80D3FA0054EFC6 /* VerticalText */ = {
+		4B06D0E52A80D3FA0054EFC6 /* VerticalTextSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B06D0FA2A80D3FB0054EFC6 /* Build configuration list for PBXNativeTarget "VerticalText" */;
+			buildConfigurationList = 4B06D0FA2A80D3FB0054EFC6 /* Build configuration list for PBXNativeTarget "VerticalTextSample" */;
 			buildPhases = (
 				4B06D0E22A80D3FA0054EFC6 /* Sources */,
 				4B06D0E32A80D3FA0054EFC6 /* Frameworks */,
@@ -176,9 +176,9 @@
 			);
 			dependencies = (
 			);
-			name = VerticalText;
+			name = VerticalTextSample;
 			productName = VerticalText;
-			productReference = 4B06D0E62A80D3FA0054EFC6 /* VerticalText.app */;
+			productReference = 4B06D0E62A80D3FA0054EFC6 /* VerticalTextSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +196,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4B06D0E12A80D3FA0054EFC6 /* Build configuration list for PBXProject "VerticalText" */;
+			buildConfigurationList = 4B06D0E12A80D3FA0054EFC6 /* Build configuration list for PBXProject "VerticalTextSample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -209,7 +209,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B06D0E52A80D3FA0054EFC6 /* VerticalText */,
+				4B06D0E52A80D3FA0054EFC6 /* VerticalTextSample */,
 			);
 		};
 /* End PBXProject section */
@@ -433,7 +433,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B06D0E12A80D3FA0054EFC6 /* Build configuration list for PBXProject "VerticalText" */ = {
+		4B06D0E12A80D3FA0054EFC6 /* Build configuration list for PBXProject "VerticalTextSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B06D0F82A80D3FB0054EFC6 /* Debug */,
@@ -442,7 +442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B06D0FA2A80D3FB0054EFC6 /* Build configuration list for PBXNativeTarget "VerticalText" */ = {
+		4B06D0FA2A80D3FB0054EFC6 /* Build configuration list for PBXNativeTarget "VerticalTextSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B06D0FB2A80D3FB0054EFC6 /* Debug */,
