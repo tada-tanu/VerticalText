@@ -3,13 +3,13 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TextKit2ViewController" customModule="VerticalText" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TextKit2ViewController" customModule="VerticalTextSample" customModuleProvider="target">
             <connections>
                 <outlet property="textView" destination="Ks8-VX-9Kv" id="bUH-oA-hM2"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -20,35 +20,25 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mZo-BO-hin">
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" layoutManager="textKit2" translatesAutoresizingMaskIntoConstraints="NO" id="Ks8-VX-9Kv">
                     <rect key="frame" x="40" y="269.66666666666669" width="313" height="313.00000000000006"/>
-                    <subviews>
-                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" layoutManager="textKit2" translatesAutoresizingMaskIntoConstraints="NO" id="Ks8-VX-9Kv">
-                            <rect key="frame" x="0.0" y="0.0" width="313" height="313"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            <string key="text">カッコの改行が綺麗に（できたら）いいな〜
-銚子丸行ってオーロラサーモンを食べたい気持ちです</string>
-                            <color key="textColor" systemColor="labelColor"/>
-                            <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="24"/>
-                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                        </textView>
-                    </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
-                        <constraint firstAttribute="trailing" secondItem="Ks8-VX-9Kv" secondAttribute="trailing" id="4Sk-Ar-NKu"/>
-                        <constraint firstAttribute="bottom" secondItem="Ks8-VX-9Kv" secondAttribute="bottom" id="KPK-aX-UEi"/>
-                        <constraint firstItem="Ks8-VX-9Kv" firstAttribute="leading" secondItem="mZo-BO-hin" secondAttribute="leading" id="NbN-V9-Pgu"/>
-                        <constraint firstAttribute="width" secondItem="mZo-BO-hin" secondAttribute="height" multiplier="1:1" id="Z7y-jM-Ztd"/>
-                        <constraint firstItem="Ks8-VX-9Kv" firstAttribute="top" secondItem="mZo-BO-hin" secondAttribute="top" id="paS-9P-nJS"/>
+                        <constraint firstAttribute="width" secondItem="Ks8-VX-9Kv" secondAttribute="height" multiplier="1:1" id="bLv-aH-wkd"/>
                     </constraints>
-                </view>
+                    <string key="text">カッコの改行が綺麗に（できたら）いいな〜
+銚子丸行ってオーロラサーモンを食べたい気持ちです</string>
+                    <color key="textColor" systemColor="labelColor"/>
+                    <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="24"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="mZo-BO-hin" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5bP-vX-57g"/>
-                <constraint firstItem="mZo-BO-hin" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="uuJ-r3-C7N"/>
-                <constraint firstItem="mZo-BO-hin" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="ymB-FC-EAD"/>
+                <constraint firstItem="Ks8-VX-9Kv" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="870-xM-x9g"/>
+                <constraint firstItem="Ks8-VX-9Kv" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="dAq-On-sBa"/>
+                <constraint firstItem="Ks8-VX-9Kv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="fxa-Hh-DCI"/>
             </constraints>
             <point key="canvasLocation" x="-11" y="21"/>
         </view>
